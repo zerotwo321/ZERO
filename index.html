@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mod Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div>
+        <p class="eyebrow">CONTROL PANEL</p>
+        <h1>Mod Panel</h1>
+        <p class="sub">Standalone panel — tidak melakukan injection ke game.</p>
+      </div>
+      <span id="status" class="status off">OFFLINE</span>
+    </header>
+
+    <section class="card">
+      <div class="row">
+        <div>
+          <h2>Panel Status</h2>
+          <p id="statusText">Panel belum diaktifkan.</p>
+        </div>
+        <button id="master" class="switch" aria-label="Aktifkan panel">
+          <span></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="grid">
+      <button class="feature" data-name="Feature 1">
+        <span class="icon">⚡</span><span><b>Feature 1</b><small>Contoh tombol</small></span><i>OFF</i>
+      </button>
+      <button class="feature" data-name="Feature 2">
+        <span class="icon">◈</span><span><b>Feature 2</b><small>Contoh tombol</small></span><i>OFF</i>
+      </button>
+      <button class="feature" data-name="Feature 3">
+        <span class="icon">◎</span><span><b>Feature 3</b><small>Contoh tombol</small></span><i>OFF</i>
+      </button>
+      <button class="feature" data-name="Feature 4">
+        <span class="icon">◆</span><span><b>Feature 4</b><small>Contoh tombol</small></span><i>OFF</i>
+      </button>
+    </section>
+
+    <section class="card info">
+      <h2>Info</h2>
+      <p>Versi <b>1.0</b></p>
+      <p>Panel ini hanya menyediakan antarmuka web dan pengaturan lokal.</p>
+    </section>
+
+    <footer>Made for your Vercel project</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
